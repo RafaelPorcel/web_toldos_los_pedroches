@@ -1,0 +1,6 @@
+<svg width="100" height="100" xmlns="http://www.w3.org/2000/svg">
+  <rect width="100" height="100" fill="#dbeafe" rx="50"/>
+  <path d="M 20 50 L 20 30 Q 20 20 30 20 L 70 20 Q 80 20 80 30 L 80 50 Z" fill="#1e3a8a"/>
+  <path d="M 30 30 L 70 30" stroke="#3b82f6" stroke-width="2"/>
+  <path d="M 40 30 L 40 50 M 50 30 L 50 50 M 60 30 L 60 50" stroke="#3b82f6" stroke-width="1.5"/>
+</svg>

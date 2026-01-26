@@ -1,0 +1,7 @@
+<svg width="400" height="300" xmlns="http://www.w3.org/2000/svg">
+  <rect width="400" height="300" fill="#dbeafe"/>
+  <circle cx="200" cy="100" r="30" fill="#3b82f6" opacity="0.8"/>
+  <path d="M 50 200 L 50 120 Q 50 80 90 80 L 310 80 Q 350 80 350 120 L 350 200" fill="#1e3a8a" opacity="0.6"/>
+  <path d="M 90 120 L 310 120" stroke="#ffffff" stroke-width="3"/>
+  <text x="200" y="250" text-anchor="middle" font-family="Arial" font-size="20" fill="#1e3a8a" opacity="0.6">Protecci�n Solar</text>
+</svg>

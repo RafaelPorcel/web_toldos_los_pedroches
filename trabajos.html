@@ -1,13 +1,31 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Toldos en Pozoblanco | Pérgolas, Cerramientos y Ventanas en Los Pedroches (Córdoba)</title>
-    <meta name="description" content="Especialistas en toldos en Pozoblanco y la comarca de Los Pedroches (Córdoba). Instalación de pérgolas, cerramientos, lonas y ventanas de PVC y aluminio. Más de 10 años de experiencia. Presupuesto sin compromiso.">
+
+    <title>Trabajos | Toldos Y Lonas Los Pedroches</title>
+
+    <meta name="description"
+        content="Descubre algunos de nuestros trabajos de instalación de toldos, pérgolas, cerramientos y ventanas realizados por Toldos y Lonas Los Pedroches en Pozoblanco y provincia de Córdoba.">
+
     <link rel="stylesheet" href="css/style.css">
+
+    <!-- Favicon -->
     <link rel="icon" type="image/jpeg" href="img/logo/toldos_y_lonas_los_pedroches_pozoblanco.jpg">
+
+    <!-- Open Graph (para WhatsApp, Facebook, etc.) -->
+    <meta property="og:title" content="Trabajos de Toldos y Cerramientos | Toldos y Lonas Los Pedroches">
+    <meta property="og:description"
+        content="Mira algunos de nuestros trabajos de instalación de toldos, pérgolas, cerramientos y ventanas en Pozoblanco y provincia de Córdoba.">
+    <meta property="og:image"
+        content="https://toldosylonaslospedroches.com/img/logo/toldos_y_lonas_los_pedroches_pozoblanco.jpg">
+    <meta property="og:url" content="https://toldosylonaslospedroches.com/trabajos">
+    <meta property="og:type" content="website">
+
 </head>
+
 <body>
     <header>
         <div class="container">
@@ -15,10 +33,14 @@
                 <a href="index.html" class="logo-link">
                     <img src="img/logo/toldos_y_lonas_los_pedroches_pozoblanco.jpg" alt="Toldos y Lonas Los Pedroches">
                 </a>
-                <a class="header-instagram" href="https://www.instagram.com/toldosylonaslospedroches?igsh=MXFneHl3bjhxbDBkdw==" target="_blank" rel="noopener noreferrer">
+                <a class="header-instagram"
+                    href="https://www.instagram.com/toldosylonaslospedroches?igsh=MXFneHl3bjhxbDBkdw==" target="_blank"
+                    rel="noopener noreferrer">
                     <img src="img/icono/logo_instagram.png" alt="Instagram Toldos y Lonas Los Pedroches">
                 </a>
-                <a class="header-facebook" href="https://www.facebook.com/people/Toldosylonas-Pedroches/pfbid0Kgev13pssiuxuyTjoqtjKKXWjdEY37gqTxpiwwmPkqGadD2X2cgHe19c9mCkzZNrl/" target="_blank" rel="noopener noreferrer">
+                <a class="header-facebook"
+                    href="https://www.facebook.com/people/Toldosylonas-Pedroches/pfbid0Kgev13pssiuxuyTjoqtjKKXWjdEY37gqTxpiwwmPkqGadD2X2cgHe19c9mCkzZNrl/"
+                    target="_blank" rel="noopener noreferrer">
                     <img src="img/icono/icono_facebook.png" alt="Facebook Toldos y Lonas Los Pedroches">
                 </a>
                 <a class="header-whatsapp" href="https://wa.me/34614866594" target="_blank" rel="noopener noreferrer">
@@ -43,22 +65,118 @@
 
     <main>
         <style>
-            .works-cards { display: grid; grid-template-columns: 1fr; gap: 28px; max-width: 1000px; margin: 0 auto; }
-            @media (min-width: 600px) { .works-cards { grid-template-columns: repeat(2, 1fr); } }
-            @media (min-width: 900px) { .works-cards { grid-template-columns: repeat(3, 1fr); gap: 32px; } }
-            @media (min-width: 1100px) { .works-cards { grid-template-columns: repeat(4, 1fr); max-width: 1200px; } }
-            .work-card { background: #fff; border-radius: 12px; overflow: hidden; box-shadow: 0 2px 12px rgba(0,0,0,0.08); border: 1px solid #e5e7eb; }
-            .work-card-title { padding: 14px 16px; font-size: 1rem; color: var(--primary-blue); font-weight: 600; text-align: center; }
-            .work-card-slider { position: relative; width: 100%; height: 260px; background: #f3f4f6; }
-            .work-card-slider img { width: 100%; height: 100%; object-fit: cover; display: block; }
-            @media (max-width: 768px) {
-                .work-card-slider { height: 380px; }
-                .work-card-slider img { object-fit: contain; }
+            .works-cards {
+                display: grid;
+                grid-template-columns: 1fr;
+                gap: 28px;
+                max-width: 1000px;
+                margin: 0 auto;
             }
-            .work-card-btns { position: absolute; top: 0; left: 0; right: 0; bottom: 0; display: flex; justify-content: space-between; align-items: center; padding: 0 8px; pointer-events: none; }
-            .work-card-btns button { pointer-events: auto; width: 40px; height: 40px; border: none; border-radius: 50%; background: rgba(30,58,138,0.9); color: #fff; font-size: 1.2rem; cursor: pointer; display: flex; align-items: center; justify-content: center; transition: background 0.2s; }
-            .work-card-btns button:hover { background: var(--secondary-blue); }
-            .work-card-counter { position: absolute; bottom: 8px; left: 50%; transform: translateX(-50%); background: rgba(0,0,0,0.5); color: #fff; padding: 4px 10px; border-radius: 12px; font-size: 0.8rem; }
+
+            @media (min-width: 600px) {
+                .works-cards {
+                    grid-template-columns: repeat(2, 1fr);
+                }
+            }
+
+            @media (min-width: 900px) {
+                .works-cards {
+                    grid-template-columns: repeat(3, 1fr);
+                    gap: 32px;
+                }
+            }
+
+            @media (min-width: 1100px) {
+                .works-cards {
+                    grid-template-columns: repeat(4, 1fr);
+                    max-width: 1200px;
+                }
+            }
+
+            .work-card {
+                background: #fff;
+                border-radius: 12px;
+                overflow: hidden;
+                box-shadow: 0 2px 12px rgba(0, 0, 0, 0.08);
+                border: 1px solid #e5e7eb;
+            }
+
+            .work-card-title {
+                padding: 14px 16px;
+                font-size: 1rem;
+                color: var(--primary-blue);
+                font-weight: 600;
+                text-align: center;
+            }
+
+            .work-card-slider {
+                position: relative;
+                width: 100%;
+                height: 260px;
+                background: #f3f4f6;
+            }
+
+            .work-card-slider img {
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+                display: block;
+            }
+
+            @media (max-width: 768px) {
+                .work-card-slider {
+                    height: 380px;
+                }
+
+                .work-card-slider img {
+                    object-fit: contain;
+                }
+            }
+
+            .work-card-btns {
+                position: absolute;
+                top: 0;
+                left: 0;
+                right: 0;
+                bottom: 0;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                padding: 0 8px;
+                pointer-events: none;
+            }
+
+            .work-card-btns button {
+                pointer-events: auto;
+                width: 40px;
+                height: 40px;
+                border: none;
+                border-radius: 50%;
+                background: rgba(30, 58, 138, 0.9);
+                color: #fff;
+                font-size: 1.2rem;
+                cursor: pointer;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                transition: background 0.2s;
+            }
+
+            .work-card-btns button:hover {
+                background: var(--secondary-blue);
+            }
+
+            .work-card-counter {
+                position: absolute;
+                bottom: 8px;
+                left: 50%;
+                transform: translateX(-50%);
+                background: rgba(0, 0, 0, 0.5);
+                color: #fff;
+                padding: 4px 10px;
+                border-radius: 12px;
+                font-size: 0.8rem;
+            }
         </style>
         <section class="page-header">
             <div class="container">
@@ -68,42 +186,99 @@
 
         <section class="works-content">
             <div class="container">
-                <p class="intro-text">Aquí puedes ver algunos de nuestros proyectos realizados. Usa los botones de cada tarjeta para ver más fotos.</p>
+                <p class="intro-text">Aquí puedes ver algunos de nuestros proyectos realizados. Usa los botones de cada
+                    tarjeta para ver más fotos.</p>
                 <div class="works-cards">
-                    <div class="work-card" data-images='["img/trabajos/trabajo1_cerramiento/WhatsApp%20Image%202026-03-03%20at%2014.46.02.jpeg","img/trabajos/trabajo1_cerramiento/WhatsApp%20Image%202026-03-03%20at%2014.46.03%20(1).jpeg","img/trabajos/trabajo1_cerramiento/WhatsApp%20Image%202026-03-03%20at%2014.46.03.jpeg"]' data-title="Cerramiento">
+                    <div class="work-card"
+                        data-images='["img/trabajos/trabajo1_cerramiento/WhatsApp%20Image%202026-03-03%20at%2014.46.02.jpeg","img/trabajos/trabajo1_cerramiento/WhatsApp%20Image%202026-03-03%20at%2014.46.03%20(1).jpeg","img/trabajos/trabajo1_cerramiento/WhatsApp%20Image%202026-03-03%20at%2014.46.03.jpeg"]'
+                        data-title="Cerramiento">
                         <h3 class="work-card-title">Cerramiento</h3>
-                        <div class="work-card-slider"><img src="img/trabajos/trabajo1_cerramiento/WhatsApp%20Image%202026-03-03%20at%2014.46.02.jpeg" alt="Cerramiento"><div class="work-card-btns"><button type="button" aria-label="Anterior">‹</button><button type="button" aria-label="Siguiente">›</button></div><span class="work-card-counter">1 / 3</span></div>
+                        <div class="work-card-slider"><img
+                                src="img/trabajos/trabajo1_cerramiento/WhatsApp%20Image%202026-03-03%20at%2014.46.02.jpeg"
+                                alt="Cerramiento">
+                            <div class="work-card-btns"><button type="button" aria-label="Anterior">‹</button><button
+                                    type="button" aria-label="Siguiente">›</button></div><span
+                                class="work-card-counter">1 / 3</span>
+                        </div>
                     </div>
-                    <div class="work-card" data-images='["img/trabajos/trabajo2_toldo/WhatsApp%20Image%202026-03-03%20at%2014.46.46%20(1).jpeg","img/trabajos/trabajo2_toldo/WhatsApp%20Image%202026-03-03%20at%2014.46.46.jpeg"]' data-title="Toldo">
+                    <div class="work-card"
+                        data-images='["img/trabajos/trabajo2_toldo/WhatsApp%20Image%202026-03-03%20at%2014.46.46%20(1).jpeg","img/trabajos/trabajo2_toldo/WhatsApp%20Image%202026-03-03%20at%2014.46.46.jpeg"]'
+                        data-title="Toldo">
                         <h3 class="work-card-title">Cofres con motor</h3>
-                        <div class="work-card-slider"><img src="img/trabajos/trabajo2_toldo/WhatsApp%20Image%202026-03-03%20at%2014.46.46%20(1).jpeg" alt="Toldo"><div class="work-card-btns"><button type="button" aria-label="Anterior">‹</button><button type="button" aria-label="Siguiente">›</button></div><span class="work-card-counter">1 / 2</span></div>
+                        <div class="work-card-slider"><img
+                                src="img/trabajos/trabajo2_toldo/WhatsApp%20Image%202026-03-03%20at%2014.46.46%20(1).jpeg"
+                                alt="Toldo">
+                            <div class="work-card-btns"><button type="button" aria-label="Anterior">‹</button><button
+                                    type="button" aria-label="Siguiente">›</button></div><span
+                                class="work-card-counter">1 / 2</span>
+                        </div>
                     </div>
-                    <div class="work-card" data-images='["img/trabajos/trabajo3_toldo/WhatsApp%20Image%202026-03-03%20at%2014.47.12%20(1).jpeg","img/trabajos/trabajo3_toldo/WhatsApp%20Image%202026-03-03%20at%2014.47.12.jpeg","img/trabajos/trabajo3_toldo/WhatsApp%20Image%202026-03-03%20at%2014.47.13.jpeg"]' data-title="Toldo">
+                    <div class="work-card"
+                        data-images='["img/trabajos/trabajo3_toldo/WhatsApp%20Image%202026-03-03%20at%2014.47.12%20(1).jpeg","img/trabajos/trabajo3_toldo/WhatsApp%20Image%202026-03-03%20at%2014.47.12.jpeg","img/trabajos/trabajo3_toldo/WhatsApp%20Image%202026-03-03%20at%2014.47.13.jpeg"]'
+                        data-title="Toldo">
                         <h3 class="work-card-title">Toldos brazo invisible</h3>
-                        <div class="work-card-slider"><img src="img/trabajos/trabajo3_toldo/WhatsApp%20Image%202026-03-03%20at%2014.47.12%20(1).jpeg" alt="Toldo"><div class="work-card-btns"><button type="button" aria-label="Anterior">‹</button><button type="button" aria-label="Siguiente">›</button></div><span class="work-card-counter">1 / 3</span></div>
+                        <div class="work-card-slider"><img
+                                src="img/trabajos/trabajo3_toldo/WhatsApp%20Image%202026-03-03%20at%2014.47.12%20(1).jpeg"
+                                alt="Toldo">
+                            <div class="work-card-btns"><button type="button" aria-label="Anterior">‹</button><button
+                                    type="button" aria-label="Siguiente">›</button></div><span
+                                class="work-card-counter">1 / 3</span>
+                        </div>
                     </div>
-                    <div class="work-card" data-images='["img/trabajos/trabajo4_toldo_corredizo/WhatsApp%20Image%202026-03-03%20at%2014.45.31%20(1).jpeg","img/trabajos/trabajo4_toldo_corredizo/WhatsApp%20Image%202026-03-03%20at%2014.45.31%20(2).jpeg","img/trabajos/trabajo4_toldo_corredizo/WhatsApp%20Image%202026-03-03%20at%2014.45.31%20(3).jpeg","img/trabajos/trabajo4_toldo_corredizo/WhatsApp%20Image%202026-03-03%20at%2014.45.31.jpeg"]' data-title="Toldo corredizo">
+                    <div class="work-card"
+                        data-images='["img/trabajos/trabajo4_toldo_corredizo/WhatsApp%20Image%202026-03-03%20at%2014.45.31%20(1).jpeg","img/trabajos/trabajo4_toldo_corredizo/WhatsApp%20Image%202026-03-03%20at%2014.45.31%20(2).jpeg","img/trabajos/trabajo4_toldo_corredizo/WhatsApp%20Image%202026-03-03%20at%2014.45.31%20(3).jpeg","img/trabajos/trabajo4_toldo_corredizo/WhatsApp%20Image%202026-03-03%20at%2014.45.31.jpeg"]'
+                        data-title="Toldo corredizo">
                         <h3 class="work-card-title">Vertical con guías cortavientos</h3>
-                        <div class="work-card-slider"><img src="img/trabajos/trabajo4_toldo_corredizo/WhatsApp%20Image%202026-03-03%20at%2014.45.31%20(1).jpeg" alt="Toldo corredizo"><div class="work-card-btns"><button type="button" aria-label="Anterior">‹</button><button type="button" aria-label="Siguiente">›</button></div><span class="work-card-counter">1 / 4</span></div>
+                        <div class="work-card-slider"><img
+                                src="img/trabajos/trabajo4_toldo_corredizo/WhatsApp%20Image%202026-03-03%20at%2014.45.31%20(1).jpeg"
+                                alt="Toldo corredizo">
+                            <div class="work-card-btns"><button type="button" aria-label="Anterior">‹</button><button
+                                    type="button" aria-label="Siguiente">›</button></div><span
+                                class="work-card-counter">1 / 4</span>
+                        </div>
                     </div>
-                    <div class="work-card" data-images='["img/trabajos/trabajo5_toldo_corredizo/WhatsApp%20Image%202026-03-03%20at%2014.44.53%20(1).jpeg","img/trabajos/trabajo5_toldo_corredizo/WhatsApp%20Image%202026-03-03%20at%2014.44.53%20(2).jpeg","img/trabajos/trabajo5_toldo_corredizo/WhatsApp%20Image%202026-03-03%20at%2014.44.53.jpeg"]' data-title="Toldo corredizo">
+                    <div class="work-card"
+                        data-images='["img/trabajos/trabajo5_toldo_corredizo/WhatsApp%20Image%202026-03-03%20at%2014.44.53%20(1).jpeg","img/trabajos/trabajo5_toldo_corredizo/WhatsApp%20Image%202026-03-03%20at%2014.44.53%20(2).jpeg","img/trabajos/trabajo5_toldo_corredizo/WhatsApp%20Image%202026-03-03%20at%2014.44.53.jpeg"]'
+                        data-title="Toldo corredizo">
                         <h3 class="work-card-title">Toldo palillería</h3>
-                        <div class="work-card-slider"><img src="img/trabajos/trabajo5_toldo_corredizo/WhatsApp%20Image%202026-03-03%20at%2014.44.53%20(1).jpeg" alt="Toldo corredizo"><div class="work-card-btns"><button type="button" aria-label="Anterior">‹</button><button type="button" aria-label="Siguiente">›</button></div><span class="work-card-counter">1 / 3</span></div>
+                        <div class="work-card-slider"><img
+                                src="img/trabajos/trabajo5_toldo_corredizo/WhatsApp%20Image%202026-03-03%20at%2014.44.53%20(1).jpeg"
+                                alt="Toldo corredizo">
+                            <div class="work-card-btns"><button type="button" aria-label="Anterior">‹</button><button
+                                    type="button" aria-label="Siguiente">›</button></div><span
+                                class="work-card-counter">1 / 3</span>
+                        </div>
                     </div>
-                    <div class="work-card" data-images='["img/trabajos/trabajo6_toldo_ventana_balcon/WhatsApp%20Image%202026-03-03%20at%2014.44.07%20(1).jpeg","img/trabajos/trabajo6_toldo_ventana_balcon/WhatsApp%20Image%202026-03-03%20at%2014.44.09%20(1).jpeg","img/trabajos/trabajo6_toldo_ventana_balcon/WhatsApp%20Image%202026-03-03%20at%2014.44.09%20(2).jpeg","img/trabajos/trabajo6_toldo_ventana_balcon/WhatsApp%20Image%202026-03-03%20at%2014.44.09%20(3).jpeg","img/trabajos/trabajo6_toldo_ventana_balcon/WhatsApp%20Image%202026-03-03%20at%2014.44.09.jpeg"]' data-title="Toldo ventana balcón">
+                    <div class="work-card"
+                        data-images='["img/trabajos/trabajo6_toldo_ventana_balcon/WhatsApp%20Image%202026-03-03%20at%2014.44.07%20(1).jpeg","img/trabajos/trabajo6_toldo_ventana_balcon/WhatsApp%20Image%202026-03-03%20at%2014.44.09%20(1).jpeg","img/trabajos/trabajo6_toldo_ventana_balcon/WhatsApp%20Image%202026-03-03%20at%2014.44.09%20(2).jpeg","img/trabajos/trabajo6_toldo_ventana_balcon/WhatsApp%20Image%202026-03-03%20at%2014.44.09%20(3).jpeg","img/trabajos/trabajo6_toldo_ventana_balcon/WhatsApp%20Image%202026-03-03%20at%2014.44.09.jpeg"]'
+                        data-title="Toldo ventana balcón">
                         <h3 class="work-card-title">Toldos brazo recto</h3>
-                        <div class="work-card-slider"><img src="img/trabajos/trabajo6_toldo_ventana_balcon/WhatsApp%20Image%202026-03-03%20at%2014.44.07%20(1).jpeg" alt="Toldo ventana balcón"><div class="work-card-btns"><button type="button" aria-label="Anterior">‹</button><button type="button" aria-label="Siguiente">›</button></div><span class="work-card-counter">1 / 5</span></div>
+                        <div class="work-card-slider"><img
+                                src="img/trabajos/trabajo6_toldo_ventana_balcon/WhatsApp%20Image%202026-03-03%20at%2014.44.07%20(1).jpeg"
+                                alt="Toldo ventana balcón">
+                            <div class="work-card-btns"><button type="button" aria-label="Anterior">‹</button><button
+                                    type="button" aria-label="Siguiente">›</button></div><span
+                                class="work-card-counter">1 / 5</span>
+                        </div>
                     </div>
-                    <div class="work-card" data-images='["img/trabajos/trabajo7_toldos_escaparate/WhatsApp%20Image%202026-03-03%20at%2014.51.03%20(1).jpeg","img/trabajos/trabajo7_toldos_escaparate/WhatsApp%20Image%202026-03-03%20at%2014.51.03%20(2).jpeg","img/trabajos/trabajo7_toldos_escaparate/WhatsApp%20Image%202026-03-03%20at%2014.51.03.jpeg","img/trabajos/trabajo7_toldos_escaparate/WhatsApp%20Image%202026-03-03%20at%2014.51.04.jpeg","img/trabajos/trabajo7_toldos_escaparate/WhatsApp%20Image%202026-03-03%20at%2014.51.05%20(1).jpeg","img/trabajos/trabajo7_toldos_escaparate/WhatsApp%20Image%202026-03-03%20at%2014.51.05%20(2).jpeg","img/trabajos/trabajo7_toldos_escaparate/WhatsApp%20Image%202026-03-03%20at%2014.51.05.jpeg"]' data-title="Toldos escaparate">
+                    <div class="work-card"
+                        data-images='["img/trabajos/trabajo7_toldos_escaparate/WhatsApp%20Image%202026-03-03%20at%2014.51.03%20(1).jpeg","img/trabajos/trabajo7_toldos_escaparate/WhatsApp%20Image%202026-03-03%20at%2014.51.03%20(2).jpeg","img/trabajos/trabajo7_toldos_escaparate/WhatsApp%20Image%202026-03-03%20at%2014.51.03.jpeg","img/trabajos/trabajo7_toldos_escaparate/WhatsApp%20Image%202026-03-03%20at%2014.51.04.jpeg","img/trabajos/trabajo7_toldos_escaparate/WhatsApp%20Image%202026-03-03%20at%2014.51.05%20(1).jpeg","img/trabajos/trabajo7_toldos_escaparate/WhatsApp%20Image%202026-03-03%20at%2014.51.05%20(2).jpeg","img/trabajos/trabajo7_toldos_escaparate/WhatsApp%20Image%202026-03-03%20at%2014.51.05.jpeg"]'
+                        data-title="Toldos escaparate">
                         <h3 class="work-card-title">Toldos brazo invisible con cofre</h3>
-                        <div class="work-card-slider"><img src="img/trabajos/trabajo7_toldos_escaparate/WhatsApp%20Image%202026-03-03%20at%2014.51.03%20(1).jpeg" alt="Toldos escaparate"><div class="work-card-btns"><button type="button" aria-label="Anterior">‹</button><button type="button" aria-label="Siguiente">›</button></div><span class="work-card-counter">1 / 7</span></div>
+                        <div class="work-card-slider"><img
+                                src="img/trabajos/trabajo7_toldos_escaparate/WhatsApp%20Image%202026-03-03%20at%2014.51.03%20(1).jpeg"
+                                alt="Toldos escaparate">
+                            <div class="work-card-btns"><button type="button" aria-label="Anterior">‹</button><button
+                                    type="button" aria-label="Siguiente">›</button></div><span
+                                class="work-card-counter">1 / 7</span>
+                        </div>
                     </div>
                 </div>
             </div>
         </section>
         <script>
-            (function() {
-                document.querySelectorAll('.work-card').forEach(function(card) {
+            (function () {
+                document.querySelectorAll('.work-card').forEach(function (card) {
                     var data = card.getAttribute('data-images');
                     if (!data) return;
                     var images = JSON.parse(data);
@@ -115,8 +290,8 @@
                     var nextBtn = card.querySelector('.work-card-btns button:last-child');
                     var idx = 0;
                     function update() { imgEl.src = images[idx]; imgEl.alt = card.getAttribute('data-title') + ' ' + (idx + 1); if (counterEl) counterEl.textContent = (idx + 1) + ' / ' + total; }
-                    prevBtn.addEventListener('click', function() { idx = (idx - 1 + total) % total; update(); });
-                    nextBtn.addEventListener('click', function() { idx = (idx + 1) % total; update(); });
+                    prevBtn.addEventListener('click', function () { idx = (idx - 1 + total) % total; update(); });
+                    nextBtn.addEventListener('click', function () { idx = (idx + 1) % total; update(); });
                 });
             })();
         </script>
@@ -132,7 +307,8 @@
                         <a href="tel:34614866594" class="footer-tel" title="Llamar al 614 866 594">
                             <img src="img/icono/icono_telefono.svg" alt="Llamar" class="footer-phone">
                         </a>
-                        <a class="footer-whatsapp" href="https://wa.me/34614866594" target="_blank" rel="noopener noreferrer">
+                        <a class="footer-whatsapp" href="https://wa.me/34614866594" target="_blank"
+                            rel="noopener noreferrer">
                             <img src="img/icono/logo_whatsapp.png" alt="WhatsApp 614 866 594">
                         </a>
                     </p>
@@ -140,7 +316,8 @@
                         <a href="tel:34624449945" class="footer-tel" title="Llamar al 624 449 945">
                             <img src="img/icono/icono_telefono.svg" alt="Llamar" class="footer-phone">
                         </a>
-                        <a class="footer-whatsapp" href="https://wa.me/34624449945" target="_blank" rel="noopener noreferrer">
+                        <a class="footer-whatsapp" href="https://wa.me/34624449945" target="_blank"
+                            rel="noopener noreferrer">
                             <img src="img/icono/logo_whatsapp.png" alt="WhatsApp 624 449 945">
                         </a>
                     </p>
@@ -148,10 +325,12 @@
                 <div class="footer-section">
                     <h3>Síguenos</h3>
                     <div class="social-links">
-                        <a href="https://www.instagram.com/toldosylonaslospedroches?igsh=MXFneHl3bjhxbDBkdw==" target="_blank" rel="noopener noreferrer">
+                        <a href="https://www.instagram.com/toldosylonaslospedroches?igsh=MXFneHl3bjhxbDBkdw=="
+                            target="_blank" rel="noopener noreferrer">
                             <img src="img/icono/logo_instagram.png" alt="Instagram Toldos y Lonas Los Pedroches">
                         </a>
-                        <a href="https://www.facebook.com/people/Toldosylonas-Pedroches/pfbid0Kgev13pssiuxuyTjoqtjKKXWjdEY37gqTxpiwwmPkqGadD2X2cgHe19c9mCkzZNrl/" target="_blank" rel="noopener noreferrer">
+                        <a href="https://www.facebook.com/people/Toldosylonas-Pedroches/pfbid0Kgev13pssiuxuyTjoqtjKKXWjdEY37gqTxpiwwmPkqGadD2X2cgHe19c9mCkzZNrl/"
+                            target="_blank" rel="noopener noreferrer">
                             <img src="img/icono/icono_facebook.png" alt="Facebook Toldos y Lonas Los Pedroches">
                         </a>
                     </div>
@@ -159,7 +338,7 @@
                 <div class="footer-section">
                     <h3>Dirección</h3>
                     <p>C/Villanueva del Duque, 15<br>
-                    Pozoblanco, Córdoba</p>
+                        Pozoblanco, Córdoba</p>
                 </div>
             </div>
             <div class="footer-bottom">
@@ -170,4 +349,5 @@
 
     <script src="js/main.js"></script>
 </body>
+
 </html>

@@ -1,0 +1,6 @@
+# Permite que todos los buscadores rastreen la web
+User-agent: *
+Allow: /
+
+# Ruta al sitemap (cambia el dominio por tu URL real cuando subas la web)
+Sitemap: https://www.toldoslospedroches.com/sitemap.xml
